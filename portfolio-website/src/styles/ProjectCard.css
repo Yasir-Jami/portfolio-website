@@ -1,10 +1,10 @@
-h2 {
-  font-family: Arial, sans-serif;
-  margin-left: 10px;
+.project-card{
+  margin-left: 40%;
 }
 
-h4 {
-  font-family: Arial, sans-serif;
+
+h2 {
+  font-family: open-sans-italic;
   margin-left: 10px;
 }
 
@@ -13,4 +13,27 @@ hr {
   border: none;
   height: 2px;
   background-color: #3378b8;
+}
+
+h4 {
+  font-family: open-sans;
+  margin-left: 10px;
+}
+
+.project-description {
+  font-weight: bold;
+}
+
+.project-image {
+  margin-left: 16%;
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url(/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: open-sans-italic;
+  src: url(/OpenSans-BoldItalic.ttf);
 }

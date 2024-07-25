@@ -2,11 +2,13 @@ import profilePicture from "./assets/profilepicture.png"
 import "./styles/About.css"
 
 function About(){
-  <div className = "about">
-    <h1>Hi! My name's Yasir and I develop software projects.</h1>
-    <img className="about-image" src={profilePicture} alt="profile picture">
-    </img>
-  </div>
+  return(
+    <div className="about">
+      <h2 className="intro">I'm Yasir!</h2>
+      <h3 className="blurb">I create software projects.</h3>
+      <img className="profile-image" src={profilePicture} alt="profile picture"></img>
+    </div>
+  )
 }
 
 export default About
