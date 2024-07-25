@@ -1,0 +1,16 @@
+h2 {
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+}
+
+h4 {
+  font-family: Arial, sans-serif;
+  margin-left: 10px;
+}
+
+hr {
+  margin-left: 10px;
+  border: none;
+  height: 2px;
+  background-color: #3378b8;
+}
